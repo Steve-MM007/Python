@@ -1,8 +1,8 @@
-#Index - position of item in list
-#append - adds a no. to the bottom of the list
-#sort - arranges no. in ascending or descending order
+#Index
+#append 
+#sort
 #count - counts no. of times an item has been repeated
-#pop - removes item from list eg numbers.remove(45) #Use index only
+#pop - removes item from list
 #insert
 #remove - removes the 1st occurence of a no.
 numbers = [45, 67, 34, 76, 23, 90]
@@ -27,6 +27,10 @@ numbers = [45, 67, 34, 76, 23, 90]
 # for i in range(len(numbers)):
 #     print(numbers[i])
 
-numbers.sort()
-for i in range(len(numbers)):
-    print(numbers[i])
+# numbers.remove(45)
+# for i in range(len(numbers)):
+#     print(numbers[i])
+print(numbers[2])
+
+#list_name[::-1]
+    #code for reversing list
